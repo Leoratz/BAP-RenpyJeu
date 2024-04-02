@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 234, in script
+    $ submit_to_google_forms(happy, scare, place, friend, bully, surname, cool, insult, recre, important, confiance, who, hurt, feel, apart, kind, safe)
+  File "game/script.rpy", line 234, in <module>
+    $ submit_to_google_forms(happy, scare, place, friend, bully, surname, cool, insult, recre, important, confiance, who, hurt, feel, apart, kind, safe)
+  File "game/script.rpy", line 4, in submit_to_google_forms
+    renpy.emscripten.run_script(js_code)
+AttributeError: 'bool' object has no attribute 'run_script'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 234, in script
+    $ submit_to_google_forms(happy, scare, place, friend, bully, surname, cool, insult, recre, important, confiance, who, hurt, feel, apart, kind, safe)
+  File "D:\LeoraData\Documents\IIM\CoursA2\BAP2\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\LeoraData\Documents\IIM\CoursA2\BAP2\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 234, in <module>
+    $ submit_to_google_forms(happy, scare, place, friend, bully, surname, cool, insult, recre, important, confiance, who, hurt, feel, apart, kind, safe)
+  File "game/script.rpy", line 4, in submit_to_google_forms
+    renpy.emscripten.run_script(js_code)
+AttributeError: 'bool' object has no attribute 'run_script'
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.1.24030407
+Zaira 1.0
+Tue Apr  2 12:09:00 2024
